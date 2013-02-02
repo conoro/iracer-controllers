@@ -48,10 +48,10 @@ hcitool scan
 This should find the i-racer as a Dagu Car. Note its MAC address and then pair to it by running:
 
 ```bash
-bluez-simple-agent hci0 00:12:05:09:94:26
+sudo bluez-simple-agent hci0 00:12:05:09:94:26
 ```
 
-where you replace 00:12:05:09:94:26 with the MAC address of your car. The PIN is either 1234 or 0000
+where you replace 00:12:05:09:94:26 with the MAC address of your car. The PIN is either 1234 or 0000. Note it must be run as sudo or you'll get bluez errors.
 
 Running
 -------
