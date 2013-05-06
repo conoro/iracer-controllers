@@ -1,4 +1,4 @@
-i-Racer + MaKey MaKey + Raspberry Pi
+i-Racer + Wii Nunchuck + Arduino
 ------------------------------------
 Simple code to control Arexx Dagu i-racer over Bluetooth using Arduino Nano, HC-05 Bluetooth module and Wii Nunchuck
 
